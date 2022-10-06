@@ -1,0 +1,92 @@
+{
+  "ListBarang": [
+    {
+      "id": 1,
+      "nama": "Buah Mangga",
+      "harga": 15000,
+      "jumlah": "5kg",
+      "is_ready": true,
+      "gambar": "Mangga.jpg",
+      "category": {
+        "id": 1,
+        "nama":"Buah-Buahan"
+      }
+    },
+    {
+      "id": 2,
+      "nama": "Buah Apel",
+      "harga": 25000,
+      "jumlah": "3kg",
+      "is_ready": true,
+      "gambar": "Apel.jpg",
+      "category": {
+        "id": 2,
+        "nama":"Buah-Buahan"
+      }
+    },
+    {
+      "id": 3,
+      "nama": "Bayam",
+      "harga": 2500,
+      "jumlah": "satu ikat",
+      "is_ready": true,
+      "gambar": "b.jpg",
+      "category": {
+        "id": 3,
+        "nama":"Sayur Mayur"
+      }
+    },
+    {
+      "id": 4,
+      "nama": "Kangkung",
+      "harga": 3500,
+      "jumlah": "dua ikat",
+      "is_ready": true,
+      "gambar": "K.jpg",
+      "category": {
+        "id": 4,
+        "nama":"Sayur Mayur"
+      }
+    }
+    
+  ],
+  "ListToko": [
+    {
+      "id": 1,
+      "nama": "Toko Raven",
+      "menjual": "Buah",
+      "jarak": "2km",
+      "is_ready": true,
+      "gambar": "raven.jpg",
+      "category": {
+        "id": 1,
+        "nama":"Toko"
+      }
+    },
+    {
+      "id": 2,
+      "nama": "Fiam Store",
+      "menjual": "Buah Dan Sayur",
+      "jarak": "10km",
+      "is_ready": true,
+      "gambar": "fiam.jpg",
+      "category": {
+        "id": 2,
+        "nama":"Toko"
+      }
+    },
+    {
+      "id": 3,
+      "nama": "Nearl Mart",
+      "menjual": "Sayur",
+      "jarak": "3km",
+      "is_ready": true,
+      "gambar": "nearl.jpg",
+      "category": {
+        "id": 3,
+        "nama":"Toko"
+      }
+    }
+    
+  ]
+}
